@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    background-color: #ffffff;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.logo{
+    position: absolute;
+    display: block;
+    
+}
+
+.image-of-man{
+    
+    width: 70%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.landing-image{
+    width: 100%;
+}
+
+
+.btn{
+    background-color:hsl(163, 95%, 43%);
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    border: hsl(163, 95%, 43%);
+    margin-top: 5%;
+    margin-right: 50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+}
+
+.header{
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    padding-bottom: 3%;
+}
+
+h1, h4{
+    font-family: 'Raleway', cursive;
+    font-weight: 700;
+}
+
+p{
+    word-break: break-all;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.1rem;
+    padding-bottom: 3%;
+    width: 70%;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 50%);
+}
+
+h4{
+    position: relative;
+    display: inline-block;
+    padding-right: 30%;
+    margin-bottom: 2%;
+}
+
+input{
+    display: block;
+    position: relative;
+    margin-left: 13%;
+    padding-right: 40%;
+    padding-bottom: 4%;
+    border: solid hsl(0, 0, 50%) 3px;
+    border-radius: 5px;
+}
+
+.privacy{
+    position: absolute; 
+    left: 60%;
+    margin-bottom: 10%;
+    text-decoration: underline;
+    color: black;
+}
+
+.logo path{
+    fill: white;
+}
+
+
+
+.fab, .fas{
+    color: white;
+    display: absolute;
+    margin-top: 40px;
+    margin-right: 40px;
+
+}
+
+.navbar{
+    background: none;
+    position: absolute;
+    width: 100%;
+}
+
+.facebook{
+    margin-bottom: 20px;
+}
+
+.mail{
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
